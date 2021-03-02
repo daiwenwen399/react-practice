@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+// 根组件
+import Header from "./Header";
+import This1 from "./this/This1";
+import Props from "./props/Props";
+import Form from "./Form/Form";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="app">
+      app根组件
+      {/* <Header></Header> */}
+      {/* <This1></This1> */}
+      {/* <Props></Props> */}
+      <Form></Form>
     </div>
   );
 }
-
-export default App;
